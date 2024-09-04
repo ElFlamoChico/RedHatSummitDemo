@@ -23,7 +23,20 @@
 # <https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html>
 #
 #------------------------------------------------------------------------------
+- name: "aws environment variables"
+    AWS_REGION='us-west-1'
+    AWS_ACCESS_KEY: "AKIAIOSFODNN7EXAMPLE"
+    AWS_SECRET_KEY: "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
 
+#    AWS_ACCESS_KEY: {
+#  "secret_path": "data/vault/dodge_test/Ansible-DBA-MySQL/username",
+#  "secret_version": ""
+#}
+#    AWS_SECRET_KEY: {
+#  "secret_path": "data/vault/dodge_test/Ansible-DBA-MySQL/password",
+#  "secret_version": ""
+#}
+    
 - name: AWS EC2 Instance Playbook
   hosts: localhost
   gather_facts: yes   # required for `ansible_date_time`
