@@ -24,7 +24,7 @@
 #
 #------------------------------------------------------------------------------
 
-- name: "aws environment variables"
+- name: "aws env variables"
     AWS_REGION='us-west-1'
     AWS_ACCESS_KEY: "AKIAIOSFODNN7EXAMPLE"
     AWS_SECRET_KEY: "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
