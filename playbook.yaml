@@ -24,6 +24,8 @@
 #
 #------------------------------------------------------------------------------
 
+
+##### HARDCODED SECRETS #####
 - name: "aws env variables"
     AWS_REGION='us-west-1'
     AWS_ACCESS_KEY: "AKIAIOSFODNN7EXAMPLE"
